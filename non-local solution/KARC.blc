@@ -1,0 +1,7 @@
+       real*8 EPS_EQ_N_K(152404, 8), DM_N_K(152404,8),
+     1 STRESS_k(152404,8,6), STRAIN_k(152404,8,6), 
+     2 EPS_PL_K(152404,8,6), EPS_EQ_K(152404, 8), DM_K(152404, 8),
+     3 hom_stress(6), DMAX
+	     integer noel_k, d_flagK
+       COMMON /KARC/ EPS_EQ_N_K, DM_N_K, STRESS_k, STRAIN_k, 
+     1  EPS_PL_K, EPS_EQ_K, DM_K, hom_stress, DMAX, noel_k, d_flagK	 
